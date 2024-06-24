@@ -1643,16 +1643,6 @@
 		)
 		(uuid "f085c3c2-f858-4985-822a-a54dc3a0e01c")
 	)
-	(wire
-		(pts
-			(xy 106.68 63.5) (xy 110.49 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f786f87e-65b6-4728-b10d-418076420f2d")
-	)
 	(global_label "A4"
 		(shape input)
 		(at 74.93 69.85 0)
@@ -1763,7 +1753,7 @@
 			)
 		)
 	)
-	(global_label "D3"
+	(global_label "D2"
 		(shape input)
 		(at 76.2 55.88 0)
 		(fields_autoplaced yes)
@@ -1851,7 +1841,7 @@
 			)
 		)
 	)
-	(global_label "D2"
+	(global_label "D3"
 		(shape input)
 		(at 76.2 58.42 0)
 		(fields_autoplaced yes)
@@ -1952,28 +1942,6 @@
 		(uuid "a33be43c-864c-460b-9005-f2460b9a74ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.2153 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 106.68 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b158da05-3a97-4b33-87c8-d41de775a8aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.8243 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 64.77 67.31 0)
 			(effects
 				(font
@@ -2657,7 +2625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 64.77 55.88 0)
 			(effects
 				(font
